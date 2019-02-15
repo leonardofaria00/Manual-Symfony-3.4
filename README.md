@@ -8,6 +8,12 @@ $ cd Manual-Symfony-3.4/
 $ vi README.md
 
 
+    Criando Banco de dados
+    $ bin/console doctrine:database:create
+    
+    Criando Entity
+    $ bin/console doctrine:generate:entity
+
     Criando as tabelas do banco de dados
     $ bin/console doctrine:schema:create
     
@@ -17,8 +23,10 @@ $ vi README.md
     Criando controller
     $ bin/console generate:controller
     
-    Criando Entity
-    $ bin/console doctrine:generate:entity
+    OBS: Para facilitar a vida, existe um comando que cria todo CRUD do projeto, para isso execute o comando:
+    $ php bin/console generate:doctrine:crud
+    
+    
 
 
 
