@@ -23,8 +23,20 @@ $ vi README.md
     Criando controller
     $ bin/console generate:controller
     
-    OBS: Para facilitar a vida, existe um comando que cria todo CRUD do projeto, para isso execute o comando:
-    $ php bin/console generate:doctrine:crud
+    OBS: Para facilitar a vida, existe um comando que cria todo CRUD do projeto, mais é necessário existir a entidade criada. Para isso execute o comando:
+    
+    Baixando projeto Symfony
+    $ composer create-project symfony/website-skeleton my-project
+    
+    Criando Entidade
+    $ bin/console doctrine:generate:entity
+    
+    Criando CRUD completo com View, Model, e Controller
+    $ bin/console generate:doctrine:crud
+    
+    Atualizando o banco de dados
+    $ bin/console doctrine:schema:update --complete
+    $ bin/console doctrine:schema:update --force
     
     
 
