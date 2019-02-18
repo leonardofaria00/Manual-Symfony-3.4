@@ -4,6 +4,7 @@
 Para fazer o download do manual execute os seguintes comandos:
 
 $ sudo git clone https://github.com/leonardofaria00/Manual-Symfony-3.4.git
+
 $ cd Manual-Symfony-3.4/
 $ vi README.md
 
