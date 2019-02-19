@@ -9,7 +9,7 @@ $ cd Manual-Symfony-3.4/
 $ vi README.md
 
     Baixando projeto Symfony
-    $ composer create-project symfony/website-skeleton my-project
+    $ sudo composer create-project symfony/framework-standard-edition symfony-project "3.4"
     
     Criando Banco de dados
     $ sudo bin/console doctrine:database:create
